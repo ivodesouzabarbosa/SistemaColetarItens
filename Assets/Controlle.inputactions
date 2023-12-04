@@ -1,0 +1,243 @@
+{
+    "name": "Controlle",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9b41f6e4-d418-4b36-96bd-b8f8142f0f02",
+            "actions": [
+                {
+                    "name": "Move-Teclado",
+                    "type": "Value",
+                    "id": "ce706b11-1f33-4365-9269-9839598205e4",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jostick",
+                    "type": "Value",
+                    "id": "a86ee02d-d65c-40e0-8a9a-a607c9b5370f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump-Teclado",
+                    "type": "Button",
+                    "id": "7b624d0b-afd5-4eb1-a4be-cb748da326c5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump-Jostick",
+                    "type": "Button",
+                    "id": "8ad3e675-4a72-4126-8f45-a6e58b70d040",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "3D Vector",
+                    "id": "1c45ba67-81d8-4d86-8288-d1edd7305863",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move-Teclado",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "67742ae4-e184-4d2d-976e-a41ad676a0e0",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Move-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f5b2e2c7-658d-4bd9-b40a-9c507ca27dcb",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Move-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "354597ef-ec60-4150-86db-cc38bd3cd713",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Move-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "5ac9f4c0-88b3-4720-bb0a-3d2c21f04d2e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Move-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "ecea72d6-d420-4a6c-b7c9-311ed2d67a2c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Move-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "2c0a6940-c25b-4582-b680-2b5e4303a6d2",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Move-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "3D Vector",
+                    "id": "4742c28f-e366-4073-8781-19eddd1cd595",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jostick",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "522bd61e-cf4e-4cd3-9aa7-98b3effac67c",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "4fd28220-cfe5-4354-9213-5f818b60bccd",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "46ef9fba-ff37-4dce-9f57-b64b94e2ab5f",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "cb1e554c-5612-4b15-8688-7608508b3b40",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "9ddff78a-e975-4c86-8931-bdccfece0228",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "d18ce637-21e2-4dd4-8538-1734ca458c45",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "08fbf2a5-8b45-4795-bb57-32668df565b4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jump-Teclado",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de57450f-a4bc-41d0-8e56-46371b9a8400",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Jump-Jostick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Main",
+            "bindingGroup": "Main",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
